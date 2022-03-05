@@ -7,6 +7,10 @@
         @apply text-[#E6EBFE]   
     }
 
+    .bg-overlay{
+        @apply absolute top-0 left-0 z-10 w-full bg-gradient-to-r from-blue-900 sm:h-full sm:to-transparent
+    }
+
     .project-1 {
         @apply col-start-1 col-end-2 row-start-1 row-end-2
     }
